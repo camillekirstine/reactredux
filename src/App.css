@@ -1,9 +1,10 @@
 .App {
   text-align: center;
+  background-color: rgba(187, 243, 187, 0.315);
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 50vmin;
   pointer-events: none;
 }
 
@@ -20,10 +21,16 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
+  position: relative;
+}
+
+nav {
+  position: absolute;
+  top: 0;
 }
 
 .App-link {
-  color: rgb(112, 76, 182);
+  color: rgba(111, 213, 114, 0.425);
 }
 
 @keyframes App-logo-float {
@@ -37,3 +44,11 @@
     transform: translateY(0px);
   }
 }
+
+h1 {
+  font-family: 'Courier New', Courier, monospace;
+  color: rgba(30, 70, 31, 0.744);
+}
+
+
+
